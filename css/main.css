@@ -5,6 +5,149 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
- }
+body {
+	margin: 0;
+}
+
+header {
+	background: transparent;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+
+#video-header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	z-index: -1;
+}
+
+video#video1 {
+	position: absolute;
+	top: -99999px;
+	bottom: -99999px;
+	left: -100%;
+	left: -99999px;
+	right: -99999px;
+	margin: auto;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#overlay {
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0.92) 17%, rgba(255, 255, 255, 0.1) 50%);
+	z-index: 100;
+}
+
+header h1 span {
+	margin-left: 2rem;
+	float: left;
+	color: white;
+	font: bold 74px/55px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+p.subtitle span {
+	margin-top: .5rem;
+	margin-left: 1rem;
+	float: left;
+	color: white;
+	font: bold 64px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+header nav ul {
+
+	margin-top: 15.6rem;
+	padding-top: 1.2rem;
+	
+	padding-bottom: .9rem;
+
+		background: rgba(0, 0, 0, 0.7);
+}
+
+header nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+	font: bold 24px/15px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 9px 10px;
+	margin-right: 5rem;
+	margin-left: center;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+/* begin social links  ********************************/
+aside{
+		position: fixed;
+	top: 350px;
+	right: -4%;
+	width: 10%;
+	transition: 1.2s width;
+	background: rgba(0, 0, 0, 0.7);
+		border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px; */
+}
+aside:hover {
+	width: 300px;
+
+}
+aside#social h2 {
+		font: bold 30px Helvetica, Sans-Serif;
+		color: whitesmoke;
+	margin-left: .5rem;
+	  font-size: 30px;
+	margin-top: 1rem;
+}
+ul.social-links li {
+	 list-style-type: none;
+	margin-left: 5rem;
+}
+ul.social-links li a{
+	text-decoration: none;
+	font: bold 20px Helvetica, Sans-Serif;
+	line-height: 2.0;
+	color: whitesmoke;
+}
+/* end social links ******************** */
+
+/* Begin watch video section ********************* */
+.monka-photo img{
+    margin-left: 2rem;
+}
+/* End watch video section ********************* */
