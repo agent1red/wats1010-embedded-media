@@ -1,143 +1,151 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Monkaa: Watch and Download the animated short film</title>
-        <meta name="description" content="Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Watch and download the animated short film here--for free!">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Make a favicon that better represents the page. -->
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Monkaa: Watch and Download the animated short film</title>
+	<meta name="description" content="Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Watch and download the animated short film here--for free!">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TODO: Make a favicon that better represents the page. -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+</head>
 
-    <body>
+<body>
 
-        <header>
-            <!-- TODO: Create an elegant header using either one of the images
+	<header>
+		<!-- TODO: Create an elegant header using either one of the images
                  or the video loop included in this repository. Make sure the
                  page navigation is presented clearly and in a user-friendly
                  way. Also, be sure to choose the proper image format as you
                  insert backgrounds and other images into the page. Balance
                  image quality with file size to achieve the best user
                  experience. -->
-          
-          <div id="video-header">
-						<div id="overlay"></div>
-	<video id="video1" poster="media/video/loop_poster.png" autoplay="">
+
+		<div id="video-header">
+			<div id="overlay"></div>
+			<video id="video1" poster="media/video/loop_poster.png" autoplay="">
 	<source type="video/mp4" src="media/video/flying_monkey_loop.mp4"></source>
 	
 	<img src="media/video/loop_poster.png">
 	</video>
-</div>
-<!--           <video autoplay loop poster="media/video/loop_poster.png" id="bgvid">
+		</div>
+		<!--           <video autoplay loop poster="media/video/loop_poster.png" id="bgvid">
     
     <source src="media/video/flying_monkey_loop.mp4" type="video/mp4">
 </video> -->
-            <h1><span>Monkaa:</span></h1>
-            <p class="subtitle"><span>An open source short film</span></p>
-            <nav>
-                <ul class="main-nav">
-                    <li><a href="#watch">Watch</a></li>
-                    <li><a href="#listen">Listen</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
-        </header>
+		<h1><span>Monkaa:</span></h1>
+		<p class="subtitle"><span>An open source short film</span></p>
+		<nav>
+			<ul class="main-nav">
+				<li><a href="#watch">Watch</a></li>
+				<li><a href="#listen">Listen</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</nav>
+	</header>
 
-        <aside id="social">
-            <!-- TODO: Experiment with different ways of making this set of
-                 share links stand out and stay near the user all the time.
-                 Try using 'absolute', 'fixed', or even 'sticky' positioning
-                 to achieve a user-friendly effect. You may also use the
-                 `:hover` pseudoselector to trigger height or width changes
-                 that could help you make a more interactive design. -->
-            <h2>Share</h2>
-            <ul class="social-links">
-                <li class="twitter"><a href="http://twitter.com">Twitter</a></li>
-                <li class="facebook"><a href="http://facebook.com">Facebook</a></li>
-                <li class="instagram"><a href="http://instagram.com">Instagram</a></li>
-            </ul>
-        </aside>
+	<aside id="social">
 
-        <section id="watch">
-					<div>
-					
-					
-					</div>
-					 <p class="monka-photo">
-      <img src="img/official_header.png" alt="Monkaa"><br> 
-					</p>
-            <h2>Watch</h2>
-            <!-- TODO: Embed the .webm and .mp4 video with full controls for a
+		<h2>Share</h2>
+		<ul class="social-links">
+			<li class="twitter"><a href="http://twitter.com">Twitter</a></li>
+			<li class="facebook"><a href="http://facebook.com">Facebook</a></li>
+			<li class="instagram"><a href="http://instagram.com">Instagram</a></li>
+		</ul>
+	</aside>
+	<p class="monka-photo">
+		<img src="img/official_header.png" alt="Monkaa"><br>
+	</p>
+
+
+	<div class="main-content">
+
+
+		<section id="watch" class="col1">
+
+
+
+
+			<h2>Watch</h2>
+			<!-- TODO: Embed the .webm and .mp4 video with full controls for a
                  convenient and attractive video viewing experience. -->
 
-            <!-- TODO: Style an elegant download link to download the video. -->
-            <h3>Download the video</h3>
-            <p>
-                Click below to download either MP4 or WEBM versions of this video.
-                <br>
-                <a class="download-button" href="media/video/monkaa_1080p.mp4">.MP4 Version</a>
-                <a class="download-button" href="media/video/monkaa_1080p.webm">.WEBM Version</a>
-            </p>
-        </section>
+			<!-- TODO: Style an elegant download link to download the video. -->
 
-        <section id="listen">
-            <h2>Listen</h2>
-            <!-- TODO: Embed an audio player so users can play back the
-                 soundtrack MP3 directly on the page. -->
 
-            <!-- TODO: Style an elegant download link to download the video. -->
-            <p>
-                <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
-            </p>
-        </section>
 
-        <section id="about">
-            <!-- TODO: Style this text so it is comfortable to read and nice
-                 to look at. Style the "lead" paragraph to be more eye-catching
-                 so that text stands out. -->
-            <h2>About</h2>
-            <p class="lead">Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Exploring his new superpowers, Monkaa zooms through an entire universe. </p>
+			<video id="video2" controls="">
+	<source type="video/mp4" src="media/video/monkaa_1080p.mp4">
+		<source type="video/mp4" src="media/video/monkaa_1080p.webm">
+		</source>
+	
+	
+	</video>
 
-            <ul class="weybec-people">
-                <!-- TODO: You must choose the proper image format to use for
+			<h3>Download the video below</h3>
+		
+			<p>
+				<a class="download-button" href="media/video/monkaa_1080p.mp4" download>.MP4 Version</a>
+				<a class="download-button" href="media/video/monkaa_1080p.webm" download>.WEBM Version</a>
+			</p>
+
+
+		</section>
+
+		<section id="listen" class="col2">
+			<h2>Listen</h2>
+			<p class="monka-photo2">
+				<img src="img/monkaa_bluemonkey.gif" alt="Monkaa-listen"><br>
+				<audio controls="">
+                    <source src="media/audio/monkaa_soundtrack.mp3" type="audio/mp3">
+                   </audio>
+			</p>
+			
+			<p>
+				<a class="download-button" href="media/audio/monkaa_soundtrack.mp3" download>Download as MP3</a>
+			</p>
+		</section>
+	</div>
+	<section id="about">
+	
+		<h2>About</h2>
+		<p class="lead">Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Exploring his new superpowers, Monkaa zooms through an entire universe. </p>
+
+		<ul class="weybec-people">
+			<!-- TODO: You must choose the proper image format to use for
                      each headshot below. Images are located in the
                      ``img/weybec/`` directory. -->
-                <li>
-                    <img class="headshot" src="TODO" alt="Pratik Solanki headshot"><br>
-                    Pratik Solanki<br>
-                    Co-Founder
-                </li>
-                <li>
-                    <img class="headshot" src="TODO" alt="Nita Ravalji headshot"><br>
-                    Nita Ravalji<br>
-                    Co-Founder
-                </li>
-                <li>
-                    <img class="headshot" src="TODO" alt="Niyal Parmar headshot"><br>
-                    Niyal Parmar<br>
-                    Co-Founder
-                </li>
-            </ul>
+			<li>
+				<img class="headshot" src="img/weybec/pratik_solanki.jpg" alt="Pratik Solanki headshot"><br> Pratik Solanki<br> Co-Founder
+			</li>
+			<li>
+				<img class="headshot" src="img/weybec/Nita-ravalji1.jpg" alt="Nita Ravalji headshot"><br> Nita Ravalji<br> Co-Founder
+			</li>
+			<li>
+				<img class="headshot" src="img/weybec/niyal_parmar.jpg" alt="Niyal Parmar headshot"><br> Niyal Parmar<br> Co-Founder
+			</li>
+		</ul>
 
-            <p>Monkaa is produced by <a href="http://www.weybec.com/">Weybec</a>, an animation studio located in Mumbai, India and founded by Pratik Solanki, Nita Ravalji and Niyal Parmar.</p>
+		<p>Monkaa is produced by <a href="http://www.weybec.com/">Weybec</a>, an animation studio located in Mumbai, India and founded by Pratik Solanki, Nita Ravalji and Niyal Parmar.</p>
 
-            <p>Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/open-movie/monkaa/">Blender Cloud</a> under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
-        </section>
+		<p>Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/open-movie/monkaa/">Blender Cloud</a>			under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
+	</section>
 
-        <footer><!-- TODO: Style the footer appropriately. -->
-            <p>This page was created and designed by WEBDEV BEV in 2015. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
-            <nav>
-                <ul class="main-nav">
-                    <li><a href="#watch">Watch</a></li>
-                    <li><a href="#listen">Listen</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
-        </footer>
+	<footer>
+		<!-- TODO: Style the footer appropriately. -->
+			<nav>
+			<ul class="main-nav">
+				<li><a href="#watch">Watch</a></li>
+				<li><a href="#listen">Listen</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</nav>
+		<p>This page was created and designed by Kevin Hudson 2016. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
+	
+	</footer>
 
-    </body>
+</body>
 
 </html>
